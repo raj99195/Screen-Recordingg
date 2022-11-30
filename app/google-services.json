@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "430332615507",
+    "project_id": "recordin-cd736",
+    "storage_bucket": "recordin-cd736.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430332615507:android:5383cfb68496669580dfa6",
+        "android_client_info": {
+          "package_name": "com.example.screenrecording1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "430332615507-dk5l9jl6q1mp9a2ffu9pgu6frqvqq0so.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-_K1g9tcei1_x-Zs7S0WSkeMpVOza3NQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "430332615507-dk5l9jl6q1mp9a2ffu9pgu6frqvqq0so.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
