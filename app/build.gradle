@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'com.google.gms.google-services'
+    id 'org.jetbrains.kotlin.android'
 }
 
 android {
@@ -33,11 +34,17 @@ android {
 
 dependencies {
 
+    implementation 'live.videosdk:rtc-android-sdk:0.1.9'
+    implementation 'com.amitshekhar.android:android-networking:1.0.2'
+
     implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation 'com.google.android.material:material:1.7.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'com.google.firebase:firebase-auth:21.0.6'
     implementation 'com.google.firebase:firebase-firestore:24.4.1'
+    implementation 'com.github.agorabuilder:native-full-sdk:3.5.0.3'
+    implementation 'com.google.firebase:firebase-storage:20.0.1'
+    implementation 'com.google.firebase:firebase-database:20.0.4'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.4'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
